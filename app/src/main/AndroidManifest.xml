@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/f10"
+        android:label="PALMAR"
+        android:roundIcon="@drawable/f10"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+
+        <!-- MainActivity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- FantasyActivity -->
+        <activity
+            android:name=".FantasyActivity"
+            android:label="Fantasy Activity" />
+
+        <!-- FactsActivity -->
+        <activity
+            android:name=".FactsActivity"
+            android:label="Facts Activity" />
+
+        <!-- HistoryActivity -->
+        <activity
+            android:name=".HistoryActivity"
+            android:label="History Activity" />
+
+        <!-- LiteratureActivity -->
+        <activity
+            android:name=".LiteratureActivity"
+            android:label="Literature Activity" />
+
+        <!-- PaymentActivity -->
+        <activity
+            android:name=".PaymentActivity"
+            android:label="Payment Activity" />
+
+        <!-- LoginActivity -->
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login Activity" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/g"
+    tools:context=".HistoryActivity">
+
+    <ImageView
+        android:layout_width="117dp"
+        android:layout_height="193dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="420dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:scaleType="centerCrop"
+        android:src="@drawable/d22" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="376dp"
+        android:backgroundTint="#AD774828"
+        android:text="A Brief History of Time (21$)"
+        android:textStyle="bold"
+        tools:ignore="DuplicateClickableBoundsCheck" />
+
+    <TextView
+        android:layout_width="395dp"
+        android:layout_height="248dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="213dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="255dp"
+        android:background="#19F3EFEF"
+        android:text="Author: Stephen Hawking. Overview: renowned physicist Stephen Hawking takes you on a journey through the evolution of our understanding of space, time."
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:layout_width="122dp"
+        android:layout_height="163dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="155dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bs" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="#AD774828"
+        android:text=" The Silk Roads (23$)"
+        android:textStyle="bold"
+        tools:ignore="DuplicateClickableBoundsCheck" />
+
+    <TextView
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="32dp"
+        android:background="#19F3EFEF"
+        android:text="Author: Peter Frankopan.                                    Overview: The historic trade routes known as the Silk Roads and their influence on the interconnection of civilizations in Asia, Africa, and Europe "
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/cartItem"
+        android:layout_width="68dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/f6" />
+
+
+</RelativeLayout>

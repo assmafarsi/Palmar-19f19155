@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".LiteratureActivity"
+    android:background="@drawable/g"
+    tools:ignore="ExtraText">>
+
+<TextView
+    android:id="@+id/selectedButtonTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@android:color/black"
+    android:textSize="18sp"
+    tools:text="Selected Button Placeholder"
+    android:layout_centerInParent="true" />
+
+
+    <Button
+        android:id="@+id/Paybtn"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="198dp"
+        android:backgroundTint="#AD774828"
+        android:text="Pay"
+        android:textStyle="bold"
+        tools:ignore="DuplicateClickableBoundsCheck" />
+
+    <ImageView
+        android:id="@+id/cartItem"
+        android:layout_width="92dp"
+        android:layout_height="164dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="530dp"
+        android:src="@drawable/f6" />
+
+</RelativeLayout>
+
+
+
+
